@@ -28,7 +28,7 @@ end = datetime.now()
 start = datetime(end.year-5,end.month,end.day)
 df = yf.download(currency, start,end)
 
-model = load_model('exchange_rate_predict_model.keras')
+model = load_model('exchange_rate_predict_model.h5')
 
 st.subheader("Exchange Rate Data")
 st.write(df)
