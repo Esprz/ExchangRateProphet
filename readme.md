@@ -8,8 +8,12 @@ ExchangeRateProphet is a Streamlit-based Python web application designed to prov
 - **Prediction Results**: Get predictions for future exchange rates based on the model.
 - **Model Comparison**: Compare real exchange rate data with model predictions to assess accuracy and performance.
 
-## Running the Streamlit App
-   
+## Running the Streamlit App 
+
+### Online
+https://exchangrateprophet.streamlit.app/
+
+### Local   
 1. **Install Dependencies**: Install the required Python packages.
    ```bash
    pip install -r requirements.txt
